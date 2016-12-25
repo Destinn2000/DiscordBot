@@ -1,0 +1,9 @@
+{
+  "name": "DiscordBot",
+  "description": "Bot for Discord",
+  "version": "0.1",
+  "private": true,
+  "dependencies": {
+
+  }
+}
