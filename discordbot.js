@@ -1,9 +1,10 @@
 // Link: http://bit.ly/2hkQM1j
-var Discord = require('discord.js');
+const Discord = require('discord.js');
+const Auth = require('./auth.json');
 
-var bot = new Discord.Client();
+const bot = new Discord.Client();
 
-var token = 'MjYyNTQ3NjQyNjc5MDMzODc3.C0FEIg.tncczxyPBUsymnf_fflfEAM3bkA';
+const token = Auth.d_token;
 
 bot.on('ready', () => {
 	console.log('Bot joined ' + bot.guilds.array());
