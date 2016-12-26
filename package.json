@@ -1,9 +1,22 @@
 {
-  "name": "DiscordBot",
+  "name": "discordbot",
   "description": "Bot for Discord",
-  "version": "0.1",
+  "version": "0.1.0",
   "private": true,
-  "dependencies": {
-
-  }
+  "dependencies": {},
+  "main": "discordbot.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Destinn2000/DiscordBot.git"
+  },
+  "author": "Destinn2000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Destinn2000/DiscordBot/issues"
+  },
+  "homepage": "https://github.com/Destinn2000/DiscordBot#readme"
 }
