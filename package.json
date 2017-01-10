@@ -1,22 +1,19 @@
 {
   "name": "discordbot",
-  "description": "Bot for Discord",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {},
-  "main": "discordbot.js",
-  "devDependencies": {},
+  "description": "Bot for Discord",
+  "main": "DiscordBot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Destinn2000/DiscordBot.git"
-  },
   "author": "Destinn2000",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Destinn2000/DiscordBot/issues"
-  },
-  "homepage": "https://github.com/Destinn2000/DiscordBot#readme"
+  "dependencies": {
+    "discord.js": "^10.0.1",
+    "lodash": "^4.17.3",
+    "querystring": "^0.2.0",
+    "url": "^0.11.0",
+    "youtube-node": "^1.3.0",
+    "ytdl-core": "^0.7.21"
+  }
 }
